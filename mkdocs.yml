@@ -1,0 +1,69 @@
+site_name: Essence of Computer Science
+site_description: A guide to the conceptual foundations and contemporary practice of Computer Science
+site_author: Swapnam Bajpai
+
+repo_url: https://github.com/swapnam-bajpai/computer-science-book
+repo_name: GitHub
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - content.code.copy
+    - toc.integrate
+  palette:
+    - scheme: default
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.superfences
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Part I: 
+      - Overview: part1-math-theory/index.md
+      - Foundations: part1-math-theory/01-foundations.md
+      - Automata and Formal Languages : part1-math-theory/02-automata.md
+      - Algorithms & Data Structures, Computational Complexity: part1-math-theory/03-algorithms.md
+      - Information Theory: part1-math-theory/04-information.md
+
+  - Part II:
+      - Overview: part2-hardware/index.md
+      - Digital Logic: part2-hardware/01-digital.md
+      - Semiconductors: part2-hardware/02-semiconductors.md
+      - Processors: part2-hardware/03-processor.md
+      - Memory: part2-hardware/04-memory.md
+      - Networking architecture: part2-hardware/05-network-architecture.md
+
+  - Part III:
+      - Overview: part3-software/index.md
+      - Operating Systems: part3-software/01-operating-systems.md
+      - Databases: part3-software/02-databases.md
+      - Networking: part3-software/03-network-protocol.md
+      - Compilers and Programming Languages: part3-software/04-compilers.md
+
+  - Part IV:
+      - Overview: part4-contemporary-eng/index.md
+      - Software Engineering: part4-contemporary-eng/01-software-engineering.md
+      - Cloud and Distributed Computing: part4-contemporary-eng/02-distributed-cloud.md
+      - Artificial Intelligence and Autonomous Agents: part4-contemporary-eng/03-ai.md
+
+  - Part V:
+      - Overview: part5-special-topics/index.md
+      - Learning Theory: part5-special-topics/01-learning.md
+      - Category and Type Theory: part5-special-topics/02-category.md
+      - Cryptography and Security: part5-special-topics/03-crpto.md
+      - Graphics, Geometry, Game Engines: part5-special-topics/04-graphics-geometry-game.md
+      - Simulations and Scientific computing: part5-special-topics/05-simulation.md
+      - Brain–Computer Interfaces, IoT and Digital twins: part5-special-topics/06-ubiquitous.md
+      - Robotics and Embodied Intelligence: part5-special-topics/07-robotics.md
+      - Computation and Physics: part5-special-topics/08-physics.md
+      - Quantum, non-von Neumann futures: part5-special-topics/09-futures.md
